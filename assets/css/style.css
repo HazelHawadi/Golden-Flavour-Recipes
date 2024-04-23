@@ -23,6 +23,10 @@ h1 {
     font-family: 'Rochester' ,sans-serif;
 }
 
+ul {
+    font-family: 'Overpass' , sans-serif;
+}
+
 /*Header*/
 header {
     background-color: aqua;
