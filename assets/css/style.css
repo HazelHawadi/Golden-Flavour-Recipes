@@ -1,3 +1,7 @@
+/*Font Styles*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*Asterisk Wildcard Selector*/
 * {
     padding: 0;
@@ -12,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #000;
+    font-family: 'Bitter', sans-serif;
 }
 
 /*Header*/
