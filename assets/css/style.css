@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/* General body styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
 /*Header*/
 header {
     background-color: aqua;
@@ -14,6 +23,8 @@ header {
 /*Main*/
 main {
     background-color: red;
+    /* The main element will take any remaining space and push down the footer */
+    flex: 1 0 auto;
 }
 
 /*Footer*/
