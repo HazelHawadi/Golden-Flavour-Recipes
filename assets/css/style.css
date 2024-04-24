@@ -37,7 +37,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #FF008A;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -45,13 +47,13 @@ header a {
     color: inherit;
 }
 
-.navbar {
+#navbar {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
-.navbar > li {
+#navbar > li {
     margin-bottom: 1em;
 }
 
@@ -66,17 +68,31 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #FF008A;
     display: none;
     top: 100%;
 }
 
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle {
+    font-size: 2rem;
+}
 
 /*Main*/
 main {
     background-color: red;
     /* The main element will take any remaining space and push down the footer */
     flex: 1 0 auto;
+    /*push the main content down*/
+    margin-top: 40px;
 }
 
 /*Footer*/
