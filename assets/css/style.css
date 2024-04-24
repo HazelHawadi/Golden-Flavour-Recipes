@@ -21,16 +21,42 @@ body {
 
 h1 {
     font-family: 'Rochester' ,sans-serif;
+    color: #FF008A;
+    letter-spacing: 9px;
 }
 
 ul {
     font-family: 'Overpass' , sans-serif;
 }
 
-/*Header*/
+    /*Header*/
 header {
-    background-color: aqua;
+    background-color: #E1F9EB;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #FF008A;
 
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+.navbar > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #FF008A;
 }
 
 /*Main*/
