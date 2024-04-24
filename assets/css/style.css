@@ -99,3 +99,35 @@ main {
 footer{
     background-color: yellowgreen;
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 2rem;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    #navbar > li {
+        padding-left: 2rem;
+    }
+
+    .nav-toggle {
+        /*to hide the toogle label*/
+        display: none;
+    }
+
+}
+/*Media Query for large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
