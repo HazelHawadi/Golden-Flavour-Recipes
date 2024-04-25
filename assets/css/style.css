@@ -19,7 +19,7 @@ body {
     font-family: 'Rokkitt', sans-serif;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Alegreya', sans-serif;
     color: #FFD700;
     letter-spacing: 9px;
@@ -36,7 +36,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #FFD700;
+    box-shadow: 0 3px 3px #FFD700;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -102,8 +102,24 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/pexels-fotios-photos-1279330.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
+#hero-text {
+    /* the last rgba value is to set the transparency */
+    background-color: rgba(8, 3, 156, .5);
+    font-size: 100%;
+    bottom: 30px;
+    width: 80%;
+    min-height: 100px;
+    padding-top: 15px;
+    padding-left: 20px;
+    position: absolute;
+}
+
+#hero-text > h2, #hero-text > h3 {
+    color: #FFD700;
+}
 
 /*Footer*/
 #social-media {
@@ -157,6 +173,11 @@ main {
         margin-top: 79px;
     }
 
+    /* Hero*/
+    #hero-text {
+        width: 400px;
+        left: 20px;
+    }
 
 }
 
