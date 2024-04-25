@@ -87,14 +87,23 @@ nav {
     font-size: 2rem;
 }
 
+
 /*Main*/
 main {
-    background-color: red;
+    
     /* The main element will take any remaining space and push down the footer */
     flex: 1 0 auto;
     /*push the main content down*/
     margin-top: 40px;
 }
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/pexels-fotios-photos-1279330.jpg") no-repeat center center/cover;
+}
+
 
 /*Footer*/
 #social-media {
