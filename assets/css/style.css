@@ -1,6 +1,6 @@
 /*Font Styles*/
 
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*Asterisk Wildcard Selector*/
 * {
@@ -16,30 +16,31 @@ body {
     display: flex;
     flex-direction: column;
     color: #000;
-    font-family: 'Rochester', sans-serif;
+    font-family: 'Rokkitt', sans-serif;
 }
 
 h1 {
-    font-family: 'Rochester' ,sans-serif;
-    color: #FF008A;
+    font-family: 'Alegreya', sans-serif;
+    color: #FFD700;
     letter-spacing: 9px;
 }
 
 ul {
-    font-family: 'Overpass' , sans-serif;
+    font-family: 'Overpass', sans-serif;
 }
 
-    /*Header*/
+/*Header*/
 header {
-    background-color: #E1F9EB;
+    background-color: #08039C;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #FF008A;
+    box-shadow: 0 2px 2px #FFD700;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    color: #FFD700;
 }
 
 header a {
@@ -53,22 +54,22 @@ header a {
     list-style-type: none;
 }
 
-#navbar > li {
+#navbar>li {
     margin-bottom: 1em;
 }
 
 .active {
-    border-bottom: 1px solid #FF008A;
+    border-bottom: 1px solid #E1F9EB;
 }
 
 /* Dropdown toggle for the NavBar */
 nav {
     position: absolute;
-    background-color: #E1F9EB;
+    background-color: #08039C;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #FF008A;
+    box-shadow: 0 2px 2px #FFD700;
     display: none;
     top: 100%;
 }
@@ -96,12 +97,23 @@ main {
 }
 
 /*Footer*/
-footer{
-    background-color: yellowgreen;
+#social-media {
+    text-align: center;
+    padding: 11px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 150%;
+    padding: 6%;
+    color: #1C00FF;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -115,7 +127,7 @@ footer{
         display: flex;
     }
 
-    #navbar > li {
+    #navbar>li {
         padding-left: 2rem;
     }
 
@@ -136,10 +148,12 @@ footer{
         margin-top: 79px;
     }
 
+
 }
+
 /*Media Query for large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #navbar a:hover{
-        border-bottom: 1px solid #FF008A;
+    #navbar a:hover {
+        border-bottom: 1px solid #FFD700;
     }
 }
