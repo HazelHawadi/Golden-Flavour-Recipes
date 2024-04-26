@@ -101,7 +101,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/pexels-jonathanborba-2983101.jpg") no-repeat center center/cover;
+    background: url("../images/pexels-jonathanborba-2983101.jpg") no-repeat right center/cover;
     position: relative;
 }
 
@@ -124,6 +124,35 @@ main {
 #breakfast-img {
     height: 200px;
     width: 250px;
+    object-fit: cover;
+}
+
+/*About styles */
+#about > h2 {
+    background-color: rgba(15, 13, 15, 0.6);
+    font-style: italic;
+    padding-left: 20px;
+    width: 39%;
+}
+
+#about > p {
+    width: 80%;
+    font-size: larger;
+}
+
+/*Breakfast styles*/
+#breakfast > h3 {
+    padding: 15px;
+    font-size: 200%;
+}
+
+#breakfast > a {
+    padding-top: 10px;
+    color: #1C00FF;
+}
+
+#breakfast > p {
+    width: 70%;
 }
 
 /*Footer*/
@@ -133,12 +162,14 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: #253a4a;
 }
 
 #social-media i {
     font-size: 150%;
     padding: 6%;
-    color: #1C00FF;
+    color: #c5c1a7;
+    
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -182,6 +213,21 @@ main {
     #hero-text {
         width: 400px;
         left: 20px;
+    }
+
+    /*About Styles*/
+    #about > p {
+        width: 95%;
+        font-size: larger;
+    }
+
+    /*Breakfast Styles*/
+
+    
+
+    #breakfast > p {
+        width: 80%;
+        font-size: larger;
     }
 
 }
