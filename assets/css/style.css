@@ -159,6 +159,14 @@ main {
     width: 70%;
 }
 
+/*lunch Styles*/
+#lunch-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
 /*Lunch Menu Recipes starts here*/
 
 .menu-one img {
