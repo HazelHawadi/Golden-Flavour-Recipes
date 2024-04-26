@@ -19,7 +19,8 @@ body {
     font-family: 'Rokkitt', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Alegreya', sans-serif;
     color: #c5c1a7;
     letter-spacing: 9px;
@@ -90,7 +91,7 @@ nav {
 
 /*Main*/
 main {
-    
+
     /* The main element will take any remaining space and push down the footer */
     flex: 1 0 auto;
     /*push the main content down*/
@@ -117,42 +118,53 @@ main {
     position: absolute;
 }
 
-#hero-text > h2 {
+#hero-text>h2 {
     color: #c5c1a7;
 }
 
-#breakfast-img {
-    height: 200px;
-    width: 250px;
-    object-fit: cover;
-}
-
 /*About styles */
-#about > h2 {
+#about>h2 {
     background-color: rgba(15, 13, 15, 0.6);
     font-style: italic;
     padding-left: 20px;
     width: 39%;
 }
 
-#about > p {
-    width: 80%;
+#about>p {
+    width: 75%;
     font-size: larger;
 }
 
 /*Breakfast styles*/
-#breakfast > h3 {
-    padding: 15px;
-    font-size: 200%;
+#breakfast-img {
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+    margin-top: 20px;
 }
 
-#breakfast > a {
+.breakfast>h3 {
+    padding: 15px;
+    font-size: 200%;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.breakfast>a {
     padding-top: 10px;
     color: #1C00FF;
 }
 
-#breakfast > p {
+.breakfast>p {
     width: 70%;
+}
+
+/*Lunch Menu Recipes starts here*/
+
+.menu-one img {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
 }
 
 /*Footer*/
@@ -169,7 +181,7 @@ main {
     font-size: 150%;
     padding: 6%;
     color: #c5c1a7;
-    
+
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -216,20 +228,36 @@ main {
     }
 
     /*About Styles*/
-    #about > p {
+    #about>p {
         width: 95%;
         font-size: larger;
     }
 
     /*Breakfast Styles*/
 
-    
 
-    #breakfast > p {
+
+    #breakfast>p {
         width: 80%;
         font-size: larger;
     }
 
+    /*Lunch Menu Recipes starts here*/
+    .menu-one img {
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+    }
+
+    .menu-one h3{
+        font-size: larger;
+        padding-top: 30px;
+        width: 25%;
+    }
+
+    #lunch h2 {
+        font-size: xx-large;
+     }
 }
 
 /*Media Query for large devices (laptops and desktops, 992px and up) */
