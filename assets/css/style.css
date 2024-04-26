@@ -138,7 +138,7 @@ main {
 /*Breakfast styles*/
 #breakfast-img {
     height: 200px;
-    width: 250px;
+    width: 200px;
     object-fit: cover;
     margin-top: 20px;
 }
