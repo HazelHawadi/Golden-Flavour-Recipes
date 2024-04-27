@@ -175,6 +175,27 @@ main {
     margin-top: 40px;
 }
 
+/*Subscribe page styles*/
+.cropped-heading {
+    position: absolute;
+    padding-top: 60px;
+}
+
+#signup {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+
 /*Footer*/
 #social-media {
     text-align: center;
@@ -190,6 +211,14 @@ main {
     padding: 6%;
     color: #c5c1a7;
 
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -269,6 +298,10 @@ main {
         width: 25%;
     }
 
+    /* Subscribe */
+    #photos {
+        column-count: 2;
+    }
     
 }
 
@@ -281,5 +314,10 @@ main {
     /*Lunch recipes Starts Here*/
     .menu-one {
         display: flex;
+    }
+
+    /* Subscribe */
+    #photos {
+        column-count: 2;
     }
 }

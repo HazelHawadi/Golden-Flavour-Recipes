@@ -32,11 +32,51 @@
                 <li><a href="breakfast.html">Breakfast</a></li>
                 <li><a href="lunch.html">Lunch</a></li>
                 <li><a href="dinner.html">Dinner</a></li>
-                <li><a href="signup.html" class="active">Sign Up</a></li>
+                <li><a href="signup.html" class="active">Subscribe</a></li>
             </ul>
         </nav>
     </header>
-    <main>Main</main>
+    <main>            
+        <h3 class="cropped-heading"><i class="fa-solid fa-burger"></i> Let's get you signed up!</h3>
+        <section id="signup">                
+            <form id="subscribe-form" method="" action="confirmation.html">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <div class="checkbox">
+                    <div>
+                        <label for="road">Cooking Tips</label>
+                        <input type="checkbox" name="notify" id="tips" value="tips">
+                    </div>
+                    <div>
+                        <label for="trail">New Recipes</label>
+                        <input type="checkbox" name="notify" id="new-recipes" value="new-recipes">
+                    </div>
+                    <div>
+                        <label for="offers">Special Offers</label>
+                        <input type="checkbox" name="notify" id="offers" value="offers">
+                    </div>
+                </div>
+                <button type="submit" class="subscribe"><strong>Let's Get Cooking!</strong></button>
+            </form>
+        </section>
+        <!--Images to style the page-->
+        <section id="gallery">
+            <div id="photos">
+                <img src="assets/images/pexels-samerdaboul-2233729.jpg" alt="skewer on a grill">
+                <img src="assets/images/pexels-robinstickel-70497.jpg" alt="a burger with fries">
+                <img src="assets/images/pexels-fotios-photos-1279330.jpg" alt="a plate of spaghetti">
+                <img src="assets/images/pexels-cristian-rojas-8448324.jpg" alt="tacos">
+                <img src="assets/images/pexels-senuscape-728360-2313686.jpg" alt="a plate of stewed beef">
+            </div>
+        </section>
+    </main>
     <footer>
         <!--Font Awesome for social media links-->
         <ul id="social-media">
