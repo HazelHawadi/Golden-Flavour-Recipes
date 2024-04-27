@@ -250,6 +250,12 @@ main {
         font-size: larger;
     }
 
+    /*Lunch recipes General Styles Here(classes with same name)*/
+    .ingredients {
+        list-style-type: none;
+        justify-content: ;
+    }
+
     /*Lunch Menu Recipes starts here*/
     .menu-one img {
         height: 250px;
@@ -263,14 +269,17 @@ main {
         width: 25%;
     }
 
-    #lunch h2 {
-        font-size: xx-large;
-     }
+    
 }
 
 /*Media Query for large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #navbar a:hover {
         border-bottom: 1px solid #c5c1a7;
+    }
+
+    /*Lunch recipes Starts Here*/
+    .menu-one {
+        display: flex;
     }
 }
