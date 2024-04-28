@@ -168,11 +168,36 @@ main {
 }
 
 /*Lunch Menu Recipes starts here*/
+.container {
+    overflow: hidden; /* Clear floats */
+}
 
-.menu-one img {
-    height: 100px;
-    width: 100px;
-    margin-top: 40px;
+img {
+    display: block; /* Make the image a block element */
+    max-width: 60%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    padding-top: 40px;
+}
+
+.lists {
+    overflow: hidden; /* Clear floats */
+    background-color: #c5c1a7;
+}
+
+.lists h2 {
+    color: #253a4a;
+}
+
+.list {
+    float: left; /* Float lists to the left */
+    width: 50%; /* Equal width for both lists */
+    box-sizing: border-box; /* Include padding and border in the width */
+    padding-right: 35px;
+    padding-left: 5px;
+}
+
+.list summary {
+    color: #1C00FF;
 }
 
 /*Subscribe page styles*/
@@ -280,23 +305,14 @@ main {
     }
 
     /*Lunch recipes General Styles Here(classes with same name)*/
-    .ingredients {
-        list-style-type: none;
-        justify-content: ;
+    img {
+        display: block; /* Make the image a block element */
+        max-width: 30%; /* Ensure image doesn't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+        padding-top: 40px;
     }
 
-    /*Lunch Menu Recipes starts here*/
-    .menu-one img {
-        height: 250px;
-        width: 250px;
-        object-fit: cover;
-    }
-
-    .menu-one h3{
-        font-size: larger;
-        padding-top: 30px;
-        width: 25%;
-    }
+    
 
     /* Subscribe */
     #photos {
@@ -319,5 +335,29 @@ main {
     /* Subscribe */
     #photos {
         column-count: 2;
+    }
+
+    /*Lunch File styles*/
+    .container {
+        display: flex;
+        align-items: center; /* Align items vertically */
+    }
+    
+    .lists {
+        display: flex;
+    }
+    
+    .list {
+        margin-right: 20px; /* Adjust margin as needed */
+    }
+    
+    img {
+        max-width: 25%; /* Ensure image doesn't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .list li {
+        font-family: Rokkitt;
+        font-size: x-large;
     }
 }
