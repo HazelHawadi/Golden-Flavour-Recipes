@@ -171,7 +171,18 @@ main {
     margin-top: 20px;
 }
 
-/*Lunch Menu Recipes starts here*/
+/*Styles For All Recipe pages breakfast, lunch, dinner*/
+#recipes h1 {
+    padding-top: 15px;
+    color: #253a4a;
+    margin: 0 auto;
+width: fit-content;
+}
+
+.lists h3 {
+    text-decoration: underline;
+}
+
 .container {
     overflow: hidden;
     /* Clear floats */
@@ -361,6 +372,16 @@ img {
     }
 
     /*Lunch File styles*/
+    #recipes h1 {
+        color: #253a4a;
+        font-weight: 300px;
+        margin: 0 auto;
+    width: fit-content;
+    }
+
+    .lists h3 {
+        text-decoration: underline;
+    }
     .container {
         display: flex;
         align-items: center;
