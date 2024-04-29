@@ -135,27 +135,31 @@ main {
     font-size: larger;
 }
 
-/*Breakfast styles*/
-#breakfast-img {
+/*Breakfast styles in index*/
+.menu {
+    padding-left: 10px;
+}
+
+.menu-img {
     height: 200px;
     width: 200px;
     object-fit: cover;
     margin-top: 20px;
 }
 
-.breakfast>h3 {
+.menu>h3 {
     padding: 15px;
     font-size: 200%;
     text-transform: uppercase;
     margin-top: 10px;
 }
 
-.breakfast>a {
+.menu>a {
     padding-top: 10px;
     color: #1C00FF;
 }
 
-.breakfast>p {
+.menu>p {
     width: 70%;
 }
 
@@ -169,18 +173,23 @@ main {
 
 /*Lunch Menu Recipes starts here*/
 .container {
-    overflow: hidden; /* Clear floats */
+    overflow: hidden;
+    /* Clear floats */
 }
 
 img {
-    display: block; /* Make the image a block element */
-    max-width: 60%; /* Ensure image doesn't exceed container width */
-    height: auto; /* Maintain aspect ratio */
+    display: block;
+    /* Make the image a block element */
+    max-width: 60%;
+    /* Ensure image doesn't exceed container width */
+    height: auto;
+    /* Maintain aspect ratio */
     padding-top: 40px;
 }
 
 .lists {
-    overflow: hidden; /* Clear floats */
+    overflow: hidden;
+    /* Clear floats */
     background-color: #c5c1a7;
 }
 
@@ -189,9 +198,12 @@ img {
 }
 
 .list {
-    float: left; /* Float lists to the left */
-    width: 50%; /* Equal width for both lists */
-    box-sizing: border-box; /* Include padding and border in the width */
+    float: left;
+    /* Float lists to the left */
+    width: 50%;
+    /* Equal width for both lists */
+    box-sizing: border-box;
+    /* Include padding and border in the width */
     padding-right: 35px;
     padding-left: 5px;
 }
@@ -299,32 +311,43 @@ img {
 
 
 
-    #breakfast>p {
-        width: 80%;
-        font-size: larger;
+    .menu>p {
+        width: 90%;
+        font-size: x-large;
     }
 
     /*Lunch recipes General Styles Here(classes with same name)*/
     img {
-        display: block; /* Make the image a block element */
-        max-width: 30%; /* Ensure image doesn't exceed container width */
-        height: auto; /* Maintain aspect ratio */
+        display: block;
+        /* Make the image a block element */
+        max-width: 30%;
+        /* Ensure image doesn't exceed container width */
+        height: auto;
+        /* Maintain aspect ratio */
         padding-top: 40px;
     }
 
-    
+
 
     /* Subscribe */
     #photos {
         column-count: 2;
     }
-    
+
 }
 
 /*Media Query for large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #navbar a:hover {
         border-bottom: 1px solid #c5c1a7;
+    }
+
+    /*recipe styles for index*/
+    .menu-img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        margin-top: 20px;
     }
 
     /*Lunch recipes Starts Here*/
@@ -340,20 +363,24 @@ img {
     /*Lunch File styles*/
     .container {
         display: flex;
-        align-items: center; /* Align items vertically */
+        align-items: center;
+        /* Align items vertically */
     }
-    
+
     .lists {
         display: flex;
     }
-    
+
     .list {
-        margin-right: 20px; /* Adjust margin as needed */
+        margin-right: 20px;
+        /* Adjust margin as needed */
     }
-    
+
     img {
-        max-width: 25%; /* Ensure image doesn't exceed container width */
-        height: auto; /* Maintain aspect ratio */
+        max-width: 25%;
+        /* Ensure image doesn't exceed container width */
+        height: auto;
+        /* Maintain aspect ratio */
     }
 
     .list li {
