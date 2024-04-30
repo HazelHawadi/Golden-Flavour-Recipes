@@ -127,12 +127,19 @@ main {
     background-color: rgba(15, 13, 15, 0.6);
     font-style: italic;
     padding-left: 20px;
-    width: 39%;
+    width: 60%;
 }
 
 #about>p {
     width: 75%;
     font-size: larger;
+}
+
+#intro {
+    font-style: italic;
+    padding-top: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 /*Breakfast styles in index*/
@@ -180,13 +187,13 @@ ul {
     padding-top: 15px;
     color: #253a4a;
     margin: 0 auto;
-width: fit-content;
+    width: fit-content;
 }
 
 .container {
     overflow: hidden;
     /* Clear floats */
-    
+
 }
 
 img {
@@ -208,7 +215,8 @@ img {
 
 .lists h3 {
     color: #253a4a;
-    margin-left: 0; /* Reset margin */
+    margin-left: 0;
+    /* Reset margin */
     margin-right: 10px;
     text-decoration: underline;
 }
@@ -234,6 +242,11 @@ img {
     padding-top: 60px;
 }
 
+#subscribe-form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #signup {
     padding-top: 100px;
     padding-bottom: 10px;
@@ -244,10 +257,10 @@ img {
     line-height: 1em;
 }
 
-#photos {
-    line-height: 0;
+/*Confirmation styles*/
+#subscribed {
+    padding-top: 60px;
 }
-
 
 /*Footer*/
 #social-media {
@@ -266,6 +279,8 @@ img {
 
 }
 
+
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
@@ -282,6 +297,7 @@ img {
     header {
         padding-right: 50px;
     }
+
     nav {
         display: block;
         position: relative;
@@ -327,6 +343,10 @@ img {
         font-size: larger;
     }
 
+    #about>h2 {
+        width: 25%;
+    }
+
     /*Breakfast Styles*/
 
 
@@ -347,16 +367,48 @@ img {
         padding-top: 40px;
     }
 
-        /*Recipes styles */
+    /*Recipes styles */
     .lists {
         font-size: x-large;
     }
 
-    /* Subscribe */
+    /*Subscribe styles*/
+    main {
+        padding-left: 5px;
+        font-size: x-large;
+    }
+
     #photos {
         column-count: 2;
     }
 
+    .cropped-heading {
+        position: absolute;
+        padding-top: 90px;
+    }
+
+    #subscribe-form {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #signup {
+        padding-top: 80px;
+        padding-bottom: 10px;
+    }
+
+    /* Adjust the margin-bottom of text-input class */
+    .text-input {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        /* Add space below each input */
+    }
+
+    /* Adjust the margin-bottom of checkbox divs */
+    .checkbox div {
+        margin-bottom: 5px;
+        /* Add space below each checkbox */
+    }
 }
 
 /*Media Query for large devices (laptops and desktops, 992px and up) */
@@ -381,6 +433,7 @@ img {
     /* Subscribe */
     #photos {
         column-count: 2;
+
     }
 
     /*Lunch File styles*/
@@ -388,12 +441,13 @@ img {
         color: #253a4a;
         font-weight: 300px;
         margin: 0 auto;
-    width: fit-content;
+        width: fit-content;
     }
 
     .lists h3 {
         text-decoration: underline;
     }
+
     .container {
         display: flex;
         align-items: center;
