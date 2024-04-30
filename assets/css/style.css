@@ -234,6 +234,8 @@ img {
 
 .list summary {
     color: #1C00FF;
+    text-transform: lowercase;
+    font-size: medium;
 }
 
 /*Subscribe page styles*/
