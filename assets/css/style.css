@@ -172,6 +172,10 @@ main {
 }
 
 /*Styles For All Recipe pages breakfast, lunch, dinner*/
+ul {
+    list-style-type: none;
+}
+
 #recipes h1 {
     padding-top: 15px;
     color: #253a4a;
@@ -179,13 +183,10 @@ main {
 width: fit-content;
 }
 
-.lists h3 {
-    text-decoration: underline;
-}
-
 .container {
     overflow: hidden;
     /* Clear floats */
+    
 }
 
 img {
@@ -202,10 +203,14 @@ img {
     overflow: hidden;
     /* Clear floats */
     background-color: #c5c1a7;
+    display: flex;
 }
 
-.lists h2 {
+.lists h3 {
     color: #253a4a;
+    margin-left: 0; /* Reset margin */
+    margin-right: 10px;
+    text-decoration: underline;
 }
 
 .list {
@@ -267,12 +272,16 @@ img {
         column-count: 2;
         column-gap: 0;
     }
+
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
+    header {
+        padding-right: 50px;
+    }
     nav {
         display: block;
         position: relative;
@@ -338,7 +347,10 @@ img {
         padding-top: 40px;
     }
 
-
+        /*Recipes styles */
+    .lists {
+        font-size: x-large;
+    }
 
     /* Subscribe */
     #photos {
