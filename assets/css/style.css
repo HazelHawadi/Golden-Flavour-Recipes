@@ -350,10 +350,6 @@ ul {
         width: 25%;
     }
 
-    /*Breakfast Styles*/
-
-
-
     .menu>p {
         width: 90%;
         font-size: x-large;
@@ -434,9 +430,9 @@ ul {
     }
 
     .container img {
-        width: 50%;
-        min-width: 50%;
-        height: 100%;
+        width: 25%;
+        min-width: 25%;
+        height:100%;
     }
 
     .lists {
