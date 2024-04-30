@@ -362,7 +362,6 @@ img {
     img {
         display: block;
         /* Make the image a block element */
-        max-width: 30%;
         /* Ensure image doesn't exceed container width */
         height: auto;
         /* Maintain aspect ratio */
