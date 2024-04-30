@@ -8,13 +8,16 @@
     <title>Zvekumba Recipes</title>
     <!--favicon link-->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.ico">
+    <!--Font awesome Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- fancyapps -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
     <!--StyleSheet Link-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--Font awesome Link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all/min.css"
-        integrity="sha512-iecdLmaskI7CVkqkXNQ/ZH/XLIvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 
 <body>
@@ -24,21 +27,21 @@
         </a>
         <!--nav Bars-->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle">X</label>
-        <i class="fa-solid fa-bars"></i>
+        <label for="nav-toggle" class="nav-toggle"><i class="fa-solid fa-bars"></i>
+        </label>
         <nav>
             <ul id="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="breakfast.html">Breakfast</a></li>
                 <li><a href="lunch.html">Lunch</a></li>
                 <li><a href="dinner.html">Dinner</a></li>
-                <li><a href="signup.html" class="active">Subscribe</a></li>
+                <li><a href="subscribe.html" class="active">Subscribe</a></li>
             </ul>
         </nav>
     </header>
-    <main>            
+    <main>
         <h3 class="cropped-heading"><i class="fa-solid fa-burger"></i> Let's get you signed up!</h3>
-        <section id="signup">                
+        <section id="signup">
             <form id="subscribe-form" method="" action="confirmation.html">
                 <label for="first-name">First Name</label>
                 <input type="text" name="first_name" id="first-name" class="text-input" required>
@@ -69,11 +72,29 @@
         <!--Images to style the page-->
         <section id="gallery">
             <div id="photos">
-                <img src="assets/images/pexels-samerdaboul-2233729.jpg" alt="skewer on a grill">
-                <img src="assets/images/pexels-robinstickel-70497.jpg" alt="a burger with fries">
-                <img src="assets/images/pexels-fotios-photos-1279330.jpg" alt="a plate of spaghetti">
-                <img src="assets/images/pexels-cristian-rojas-8448324.jpg" alt="tacos">
-                <img src="assets/images/pexels-senuscape-728360-2313686.jpg" alt="a plate of stewed beef">
+                <a href="assets/images/pexels-samerdaboul-2233729.jpg" data-fancybox="gallery"
+                    data-caption="skewer on a grill">
+                    <img src="assets/images/pexels-samerdaboul-2233729.jpg" alt="skewer on a grill">
+                </a>
+                <a href="assets/images/pexels-robinstickel-70497.jpg" data-fancybox="gallery"
+                    data-caption="a burger with fries">
+                    <img src="assets/images/pexels-robinstickel-70497.jpg" alt="a burger with fries">
+                </a>
+                <a href="assets/images/pexels-fotios-photos-1279330.jpg" data-fancybox="gallery"
+                    data-caption="a plate of spaghetti">
+                    <img src="assets/images/pexels-fotios-photos-1279330.jpg" alt="a plate of spaghetti">
+                </a>
+                <a href="assets/images/pexels-cristian-rojas-8448324.jpg" data-fancybox="gallery" data-caption="tacos">
+                    <img src="assets/images/pexels-cristian-rojas-8448324.jpg" alt="tacos">
+                </a>
+                <a href="assets/images/pexels-senuscape-728360-2313686.jpg" data-fancybox="gallery"
+                    data-caption="a plate of stewed beef">
+                    <img src="assets/images/pexels-senuscape-728360-2313686.jpg" alt="a plate of stewed beef">
+                </a>
+                <a href="assets/images/amin-ramezani-PipzrGSil-c-unsplash.jpg" data-fancybox="gallery"
+                    data-caption="a plate of chicken salad">
+                    <img src="assets/images/amin-ramezani-PipzrGSil-c-unsplash.jpg" alt=" plate of chicken salad">
+                </a>
             </div>
         </section>
     </main>
@@ -104,6 +125,11 @@
 
         <!-- kit for Font Awesome -->
         <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+
+        <!-- fancyapps -->
+        <script>
+            Fancybox.bind('[data-fancybox="gallery"]', {});
+        </script>
     </footer>
 </body>
 

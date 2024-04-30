@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* General body styles */
 
 body {
@@ -191,24 +195,19 @@ ul {
 }
 
 .container {
-    overflow: hidden;
-    /* Clear floats */
-
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #c5c1a7;
 }
 
-img {
-    display: block;
-    /* Make the image a block element */
-    max-width: 60%;
-    /* Ensure image doesn't exceed container width */
-    height: auto;
-    /* Maintain aspect ratio */
-    padding-top: 40px;
+.container img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .lists {
-    overflow: hidden;
-    /* Clear floats */
     background-color: #c5c1a7;
     display: flex;
 }
@@ -254,9 +253,17 @@ img {
     padding-bottom: 10px;
 }
 
-#photos img {
+#photos {
     width: 100%;
-    line-height: 1em;
+    margin: 0 auto;
+}
+
+#photos img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
 }
 
 /*Confirmation styles*/
@@ -284,13 +291,7 @@ img {
 
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
-
-}
+@media screen and (min-width: 576px) {}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -358,16 +359,6 @@ img {
         font-size: x-large;
     }
 
-    /*Lunch recipes General Styles Here(classes with same name)*/
-    img {
-        display: block;
-        /* Make the image a block element */
-        /* Ensure image doesn't exceed container width */
-        height: auto;
-        /* Maintain aspect ratio */
-        padding-top: 40px;
-    }
-
     /*Recipes styles */
     .lists {
         font-size: x-large;
@@ -375,12 +366,7 @@ img {
 
     /*Subscribe styles*/
     main {
-        padding-left: 5px;
         font-size: x-large;
-    }
-
-    #photos {
-        column-count: 2;
     }
 
     .cropped-heading {
@@ -431,12 +417,6 @@ img {
         display: flex;
     }
 
-    /* Subscribe */
-    #photos {
-        column-count: 2;
-
-    }
-
     /*Lunch File styles*/
     #recipes h1 {
         color: #253a4a;
@@ -450,9 +430,13 @@ img {
     }
 
     .container {
-        display: flex;
-        align-items: center;
-        /* Align items vertically */
+        flex-direction: row;
+    }
+
+    .container img {
+        width: 50%;
+        min-width: 50%;
+        height: 100%;
     }
 
     .lists {
@@ -462,13 +446,6 @@ img {
     .list {
         margin-right: 20px;
         /* Adjust margin as needed */
-    }
-
-    img {
-        max-width: 25%;
-        /* Ensure image doesn't exceed container width */
-        height: auto;
-        /* Maintain aspect ratio */
     }
 
     .list li {
