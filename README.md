@@ -52,7 +52,14 @@ The color scheme of the Zvekumba Recipes website was carefully selected to give 
 - The Home page serves as the gateway to our culinary world. It may feature a captivating hero section with amazing images of delicious dishes, accompanied by a brief introduction to Zvekumba Recipes.
 - Visitors can quickly navigate to different sections of the website, including Breakfast, Lunch, Dinner, and Subscribe, using the intuitive navigation bar.
 
+2. ### Recipe Pages 
+#### Breakfast:
+![breakfast page][def4]
+- Start your day off right with the Breakfast page! Discover a variety of delicious and nutritious breakfast recipes to fuel the morning. From omelets to  pancakes, there is something to satisfy every craving. Each recipe comes with clear instructions, ingredient lists, and helpful tips to ensure the recipe turns out perfect every time.
+- To keep the page neat there is the 'Read more' to click to see the rest of the ingredients and steps
 
+3. ### Lunch
+- 
 
 
 
@@ -70,4 +77,5 @@ FancyApp credit: https://fancyapps.com/fancybox/getting-started/
 [color scheme]: assets/images/readme/zvekumba%20header.png
 [def]: assets/images/readme/zvekumba%20header.png
 [def3]: assets/images/readme/home.png
+[def4]: assets/images/readme/breakfast.png
 
