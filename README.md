@@ -4,6 +4,8 @@
 1. [Project Overview](#project-overview)
 2. [Usage](#usage)
 3. [HTML Structure](#html-structure)
+4. [CSS Styling](#css-styling)
+5. [Media Queries](#media-queries)
 
 ![Responsive Mockup][def2]
 
@@ -28,6 +30,17 @@ Once the website is running, users can:
 
 ## CSS Styling
 The CSS file (style.css) contains styles to enhance the visual appearance and layout of the website. Here are some key aspects of the styling:
+- Font Styles: Imports Google Fonts for custom typography and defines font styles for different elements.
+- General Body Styles: Sets basic styles for the body element, such as color, font family, and box-sizing.
+- Header: Styles the header section, including background color, padding, and navigation menu.
+- Main Content: Styles various elements within the main content section, such as the subscription form, gallery, and individual recipe items.
+- Footer: Styles the footer section, including social media links.
+
+## Media Queries
+The CSS file includes media queries to ensure different viewing options and usability across different devices:
+- Adjustments for large or landscape phones (576px and up).
+-Enhanced layout and font sizes for tablets and larger screens (768px and up).
+- Tailored styling for large devices such as laptops and desktops (992px and up).
 
 
 
