@@ -244,13 +244,19 @@ ul, ol {
 }
 
 #subscribe-form {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
 #signup {
     padding-top: 100px;
     padding-bottom: 10px;
+}
+
+#signup h3 {
+    position: absolute;
+    padding-top: 0px;
+    margin-bottom: 20px;
 }
 
 #photos {
@@ -277,6 +283,7 @@ ul, ol {
     font-size: large;
     font-style: italic;
 }
+
 
 /*Footer*/
 #social-media {
@@ -381,13 +388,14 @@ ul, ol {
         font-size: x-large;
     }
 
-    .cropped-heading {
+    #signup h3 {
         position: absolute;
-        padding-top: 90px;
+        padding-top: 20px;
+        margin-bottom: 20px;
     }
 
     #subscribe-form {
-        padding-top: 50px;
+        padding-top: 80px;
         padding-bottom: 50px;
     }
 
