@@ -447,4 +447,11 @@ ul {
         font-family: Rokkitt;
         font-size: x-large;
     }
+
+    #closing p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: x-large;
+        font-style: italic;
+    }
 }
