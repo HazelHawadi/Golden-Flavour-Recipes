@@ -61,6 +61,7 @@ header a {
 
 #navbar>li {
     margin-bottom: 1em;
+    margin-right: 20px;
 }
 
 .active {
@@ -271,6 +272,13 @@ ul {
     padding-top: 60px;
 }
 
+#closing p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-style: italic;
+}
+
 /*Footer*/
 #social-media {
     text-align: center;
@@ -314,7 +322,8 @@ ul {
     }
 
     #navbar>li {
-        padding-left: 2rem;
+        padding-left: 1px;
+        margin-right: 4px;
     }
 
     .nav-toggle {
