@@ -187,8 +187,8 @@ ul, ol {
     list-style-type: none;
 }
 
-#recipes h1 {
-    padding-top: 15px;
+#recipes h2 {
+    padding-top: 65px;
     color: #253a4a;
     margin: 0 auto;
     width: fit-content;
