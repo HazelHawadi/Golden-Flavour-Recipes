@@ -6,6 +6,7 @@
 3. [HTML Structure](#html-structure)
 4. [CSS Styling](#css-styling)
 5. [Media Queries](#media-queries)
+6. [Color scheme]()
 
 ![Responsive Mockup][def2]
 
@@ -42,6 +43,16 @@ The CSS file includes media queries to ensure different viewing options and usab
 -Enhanced layout and font sizes for tablets and larger screens (768px and up).
 - Tailored styling for large devices such as laptops and desktops (992px and up).
 
+## Color Scheme
+![color scheme][color scheme]
+The color scheme of the Zvekumba Recipes website was carefully selected to give a sense of warmth, sophistication, and culinary inspiration. The aim was to create a visually appealing and inviting environment for visitors to explore the collection of delicious recipes. The following colors are featured throughout the website:
+1. Primary Color: #253a4a
+- This deep blue-green hue serves as the primary color for headers, navigation bars, and other prominent elements. It gives a sense of richness and elegance, while also providing excellent contrast for text and other content.
+2. Accent Color: #c5c1a7
+- The light taupe accent color adds warmth and softness to the design. It is used for backgrounds, borders, and other supporting elements, providing visual balance and uniform to the overall layout.
+3. Highlight Color: #1C00FF
+- This color is strategically employed to draw attention to important elements such as links, buttons, and interactive components. It creates a sense of excitement, encouraging user engagement and exploration.
+
 
 
 
@@ -61,3 +72,4 @@ FancyApp credit: https://fancyapps.com/fancybox/getting-started/
 
 
 [def2]: assets/images/readme/zvekumba%20recipes%20responsive%20image.png
+[color scheme]: assets/images/readme/zvekumba%20header.png
