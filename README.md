@@ -3,10 +3,10 @@
 ## Table Of Contents
 1. [Project Overview](#project-overview)
 2. [Usage](#usage)
-3. [HTML Structure](#html-structure)
 4. [CSS Styling](#css-styling)
 5. [Media Queries](#media-queries)
 6. [Color scheme](#color-scheme)
+7. [Structure](#structure)
 
 ![Responsive Mockup][def2]
 
@@ -21,13 +21,6 @@ Once the website is running, users can:
 - Subscribe to receive cooking tips, new recipes, and special offers.
 - Explore the gallery with images of featured recipes.
 - Engage with the Zvekumba Recipes community on social media.
-
-## HTML Structure
-- Header: Contains the website logo and navigation menu.
-- Main Content: Has 3 sections Breakfast, Lunch and Dinner which contains images, ingredients and steps to follow when making a certain recipe.
-- Subscription Form: Allows users to subscribe to cooking tips, new recipes, and special offers.
-- Gallery: Displays a collection of images showcasing various recipes.
-- Footer: Contains social media links for further engagement.
 
 ## CSS Styling
 The CSS file (style.css) contains styles to enhance the visual appearance and layout of the website. Here are some key aspects of the styling:
@@ -53,9 +46,11 @@ The color scheme of the Zvekumba Recipes website was carefully selected to give 
 3. Highlight Color: #1C00FF
 - This color is strategically employed to draw attention to important elements such as links, buttons, and interactive components. It creates a sense of excitement, encouraging user engagement and exploration.
 
-
-
-
+## Structure
+1. ### Home Page:
+![home page][def3]
+- The Home page serves as the gateway to our culinary world. It may feature a captivating hero section with amazing images of delicious dishes, accompanied by a brief introduction to Zvekumba Recipes.
+- Visitors can quickly navigate to different sections of the website, including Breakfast, Lunch, Dinner, and Subscribe, using the intuitive navigation bar.
 
 
 
@@ -74,3 +69,5 @@ FancyApp credit: https://fancyapps.com/fancybox/getting-started/
 [def2]: assets/images/readme/zvekumba%20recipes%20responsive%20image.png
 [color scheme]: assets/images/readme/zvekumba%20header.png
 [def]: assets/images/readme/zvekumba%20header.png
+[def3]: assets/images/readme/home.png
+
