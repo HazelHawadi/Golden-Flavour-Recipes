@@ -4,7 +4,7 @@
 1. [Project Overview](#project-overview)
 2. [Usage](#usage)
 
-![alt text](<assets/images/zvekumba recipes responsive image.png>)
+![alt text][def]
 
 [Here is a link to the live website](https://hazelhawadi.github.io/Zvekumba-Recipes/)
 
@@ -30,3 +30,6 @@ Once the website is running, users can:
 
 
 FancyApp credit: https://fancyapps.com/fancybox/getting-started/
+
+
+[def]: <assets/images/zvekumba recipes responsive image.png>
