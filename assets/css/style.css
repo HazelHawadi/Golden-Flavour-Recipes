@@ -183,7 +183,7 @@ main {
 }
 
 /*Styles For All Recipe pages breakfast, lunch, dinner*/
-ul {
+ul, ol {
     list-style-type: none;
 }
 
