@@ -53,10 +53,15 @@ The color scheme of the Zvekumba Recipes website was carefully selected to give 
 - Visitors can quickly navigate to different sections of the website, including Breakfast, Lunch, Dinner, and Subscribe, using the intuitive navigation bar.
 
 2. ### Recipe Pages (Breakfast, Lunch, Dinner):
-![recipe page](assets/images/readme/breakfast.png)
+![recipe page][def5]
 - Each recipe page showcases a selection of mouthwatering dishes, complete with vibrant images, detailed ingredient lists, step-by-step instructions, and cooking tips.
 - Users can easily browse through the recipes and discover new culinary inspirations to try at home.
 - All three pages were designed to look the same, to keep the pages uniformed.
+#### lunch
+![lunch recipe page][def6]
+
+#### dinner
+![dinner recipe page](assets/images/readme/dinner.png)
 
 3. ### Subscribe Page:
 
@@ -77,4 +82,6 @@ FancyApp credit: https://fancyapps.com/fancybox/getting-started/
 [def]: assets/images/readme/zvekumba%20header.png
 [def3]: assets/images/readme/home.png
 [def4]: assets/images/readme/breakfast.png
+[def5]: assets/images/readme/breakfast.png
+[def6]: assets/images/readme/lunch.png
 
