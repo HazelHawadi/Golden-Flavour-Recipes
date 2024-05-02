@@ -53,17 +53,27 @@ The color scheme of the Zvekumba Recipes website was carefully selected to give 
 - Visitors can quickly navigate to different sections of the website, including Breakfast, Lunch, Dinner, and Subscribe, using the intuitive navigation bar.
 
 2. ### Recipe Pages (Breakfast, Lunch, Dinner):
+#### breakfast:
 ![recipe page][def5]
 - Each recipe page showcases a selection of mouthwatering dishes, complete with vibrant images, detailed ingredient lists, step-by-step instructions, and cooking tips.
 - Users can easily browse through the recipes and discover new culinary inspirations to try at home.
 - All three pages were designed to look the same, to keep the pages uniformed.
-#### lunch
+#### lunch:
 ![lunch recipe page][def6]
 
-#### dinner
+#### dinner:
 ![dinner recipe page](assets/images/readme/dinner.png)
 
 3. ### Subscribe Page:
+![subscribe page](assets/images/readme/signup.png)
+- The Subscribe page invites visitors to join the community and stay updated with the latest recipes, cooking tips, and special offers.
+- Users can sign up by providing their first name, last name and email address, with options to receive notifications for cooking tips, new recipes, and exclusive deals.
+- Once the user clicks the submit button (lets get cokking), the person is taken to the confirmation page.
+- To add a bit of inspiration, motivation, temptation, there is a gallery at the bottom of the form to showcase some of the recipes one can make at home.
+
+### Confirmation Page:
+- Upon subscribing to Zvekumba Recipes, users are redirected to the Confirmation page, where they receive a warm thank you message and reassurance of successful subscription.
+- This page also provides a link back to the Home page for continued exploration of our website.
 
 
 
