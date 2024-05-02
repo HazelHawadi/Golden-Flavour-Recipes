@@ -71,10 +71,34 @@ The color scheme of the Zvekumba Recipes website was carefully selected to give 
 - Once the user clicks the submit button (lets get cokking), the person is taken to the confirmation page.
 - To add a bit of inspiration, motivation, temptation, there is a gallery at the bottom of the form to showcase some of the recipes one can make at home.
 
-### Confirmation Page:
+4. ### Confirmation Page:
+![confirmation page](assets/images/readme/confirmation.png)
 - Upon subscribing to Zvekumba Recipes, users are redirected to the Confirmation page, where they receive a warm thank you message and reassurance of successful subscription.
 - This page also provides a link back to the Home page for continued exploration of our website.
 
+5. ### Footer
+![footer](assets/images/readme/footer.png)
+- The footer section includes links to the relevant social media sites for Zvekumba Recipes. The links will open to a new tab to allow easy navigation for the user.
+- The footer is valuable to the user as it encourages them to keep connected via social media.
+
+## Technologies
+- Css
+- HTML
+- Font awesome
+- Github 
+- Gitpod
+- Unsplashed
+- Fontjoy
+- Google fonts
+- Pexels
+- Favicon.cc
+- W3C HTML Markup Validator
+- W3C Jigsaw CSS Validator
+- Code Institute's Gitpod Template
+- Google chrome Lighthouse
+- Colorfilter
+- Markdown Tables Generator
+- ui.dev
 
 
 
