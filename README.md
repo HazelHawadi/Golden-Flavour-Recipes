@@ -100,7 +100,8 @@ The color scheme of the Zvekumba Recipes website was carefully selected to give 
 - Markdown Tables Generator
 - ui.dev
 - FancyApp
--
+- Code institute learning
+- Google chrome Lighthouse
 
 ## Automated Testing
 1. [W3 Markup Validation](https://validator.w3.org/nu/#textarea)
