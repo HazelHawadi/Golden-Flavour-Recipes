@@ -52,14 +52,13 @@ The color scheme of the Zvekumba Recipes website was carefully selected to give 
 - The Home page serves as the gateway to our culinary world. It may feature a captivating hero section with amazing images of delicious dishes, accompanied by a brief introduction to Zvekumba Recipes.
 - Visitors can quickly navigate to different sections of the website, including Breakfast, Lunch, Dinner, and Subscribe, using the intuitive navigation bar.
 
-2. ### Recipe Pages 
-#### Breakfast:
-![breakfast page][def4]
-- Start your day off right with the Breakfast page! Discover a variety of delicious and nutritious breakfast recipes to fuel the morning. From omelets to  pancakes, there is something to satisfy every craving. Each recipe comes with clear instructions, ingredient lists, and helpful tips to ensure the recipe turns out perfect every time.
-- To keep the page neat there is the 'Read more' to click to see the rest of the ingredients and steps
+2. ### Recipe Pages (Breakfast, Lunch, Dinner):
+![recipe page](assets/images/readme/breakfast.png)
+- Each recipe page showcases a selection of mouthwatering dishes, complete with vibrant images, detailed ingredient lists, step-by-step instructions, and cooking tips.
+- Users can easily browse through the recipes and discover new culinary inspirations to try at home.
+- All three pages were designed to look the same, to keep the pages uniformed.
 
-3. ### Lunch
-- 
+3. ### Subscribe Page:
 
 
 
