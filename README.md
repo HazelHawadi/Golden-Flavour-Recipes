@@ -15,6 +15,26 @@
 ## Project Overview
 Zvekumba Recipes is a website designed to inspire culinary creativity and exploration. The site provides easy recipes to try at home. It offers a diverse range of recipes for breakfast, lunch, and dinner. Users can also subscribe to receive cooking tips, new recipes, and special offers.
 
+# UX Design 
+
+## User Stories
+
+### As a first time user:
+- I want to be amused.
+- Navigate through the various recipe categories: breakfast, lunch, and dinner
+- I want to easily understand the main purpose of the site and learn more about the topic.
+- I want to be able to easily navigate and find content.
+- I want to find ways to join the community and follow the movement on social media.
+- I want the recipes to be simple and easy to follow.
+
+### As a returning user:
+
+- I want to join the community.
+- I want to find more recipes added.
+
+### All users:
+The website should be accesible on different sized screens (bold)
+
 ## Usage
 Once the website is running, users can:
 - Navigate through the various recipe categories: breakfast, lunch, and dinner.
