@@ -2,6 +2,7 @@
 
 ## Table Of Contents
 1. [Project Overview](#project-overview)
+3. [UX Design](#ux-design)
 2. [Usage](#usage)
 4. [CSS Styling](#css-styling)
 5. [Media Queries](#media-queries)
@@ -34,6 +35,22 @@ Zvekumba Recipes is a website designed to inspire culinary creativity and explor
 
 ### All users:
 The website should be accesible on different sized screens (bold)
+
+## Wireframe
+ Home
+ ![home](assets/images/readme/home-pic.PNG)
+
+ Breakfast
+ ![breakfast](assets/images/readme/breakfast-pic.PNG)
+
+Lunch
+ ![lunch](assets/images/readme/lunch-pic.PNG)
+
+ Dinner
+ ![dinner](assets/images/readme/dinner-pic.PNG)
+
+ Sign up
+ ![subscribe](assets/images/readme/sign-up-pic.PNG)
 
 ## Usage
 Once the website is running, users can:
@@ -128,6 +145,10 @@ The color scheme of the Zvekumba Recipes website was carefully selected to give 
 - All pages were run through HTML Validator. No errors were detected.
 2. [W3 Jigsaw](https://jigsaw.w3.org/css-validator/validator)
 - CSS Stylesheet was run through CSS Validator. No errors were detected.
+
+## User experience testing
+
+![test](assets/images/readme/table-test.png)
 
 ## Credits
 - FancyApp credit: https://fancyapps.com/fancybox/getting-started/
