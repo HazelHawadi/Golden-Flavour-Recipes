@@ -99,7 +99,14 @@ The color scheme of the Zvekumba Recipes website was carefully selected to give 
 - Colorfilter
 - Markdown Tables Generator
 - ui.dev
+- FancyApp
+-
 
+## Automated Testing
+1. [W3 Markup Validation](https://validator.w3.org/nu/#textarea)
+- All pages were run through HTML Validator. No errors were detected.
+2. [W3 Jigsaw](https://jigsaw.w3.org/css-validator/validator)
+- CSS Stylesheet was run through CSS Validator. No errors were detected.
 
 
 
