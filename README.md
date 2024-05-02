@@ -109,6 +109,30 @@ The color scheme of the Zvekumba Recipes website was carefully selected to give 
 - CSS Stylesheet was run through CSS Validator. No errors were detected.
 
 ## Credits
+- FancyApp credit: https://fancyapps.com/fancybox/getting-started/
+- hero-image.webp is Jonathan Borba from Pexels
+- Amin Ramezani from Unsplash
+- @valeriya from Pexels
+- recipes [GoodFood](https://www.bbcgoodfood.com/)
+- amfaru from Pexels
+- cristian-roja from Pexels
+- Roman Odintsov from Pexels
+- Cristian Rojas from Pexels
+- @robinstickel from Pexels
+- @samerdaboul from Pexels
+- @senuscape from Pexels
+- angele J from Pexels
+- Emanuel Ekstrom from Unsplash
+- Melissa Walker from Unsplash
+- @rdne from Pexels
+- @sixteen-miles-out from Unsplash
+- @sanket-shah from Unsplash
+- @nonsap-visuals from Unsplash
+- @ioan-bilac from Unsplash
+- Kristine Tumanyan from Pexels
+- @myfoodie from Pexels
+
+
 
 ## Acknowledgements
 I would like to thank my mentor Tim Nelson for his guidance, support, advice ,patience, understanding, inspiration. I appreciate that
@@ -118,11 +142,6 @@ A big thanks to Slack Community for for always being someone willing to answer m
 Also Amy (Cohort Facilitator) who does check up on my progress.
 
 
-
-
-
-
-FancyApp credit: https://fancyapps.com/fancybox/getting-started/
 
 
 [def2]: assets/images/readme/zvekumba%20recipes%20responsive%20image.png
