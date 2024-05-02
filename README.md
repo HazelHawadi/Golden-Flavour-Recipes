@@ -108,7 +108,14 @@ The color scheme of the Zvekumba Recipes website was carefully selected to give 
 2. [W3 Jigsaw](https://jigsaw.w3.org/css-validator/validator)
 - CSS Stylesheet was run through CSS Validator. No errors were detected.
 
+## Credits
 
+## Acknowledgements
+I would like to thank my mentor Tim Nelson for his guidance, support, advice ,patience, understanding, inspiration. I appreciate that
+
+A big thanks to Slack Community for for always being someone willing to answer my questions.
+
+Also Amy (Cohort Facilitator) who does check up on my progress.
 
 
 
